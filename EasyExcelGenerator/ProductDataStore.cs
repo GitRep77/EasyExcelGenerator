@@ -9,10 +9,10 @@
             Products = new List<Product>
             {
                 // January
-                new Product { Id = 1, Name = "Product A", SalesAmount = 5000m, Month = "January" },
-                new Product { Id = 2, Name = "Product B", SalesAmount = 5000m, Month = "January" },
-                new Product { Id = 3, Name = "Product C", SalesAmount = 5000m, Month = "January" },
-                new Product { Id = 4, Name = "Product D", SalesAmount = 5000m, Month = "January" },
+                new Product { Id = 1, Name = "Product A", SalesAmount = 1600m, Month = "January" },
+                new Product { Id = 2, Name = "Product B", SalesAmount = 1400m, Month = "January" },
+                new Product { Id = 3, Name = "Product C", SalesAmount = 1200m, Month = "January" },
+                new Product { Id = 4, Name = "Product D", SalesAmount = 2300m, Month = "January" },
 
                 // February
                 new Product { Id = 5, Name = "Product A", SalesAmount = 1300m, Month = "February" },
