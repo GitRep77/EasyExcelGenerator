@@ -1,11 +1,11 @@
 
-# FastExcelGenerate
+# EasyExcelGenerate
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![C# Version](https://img.shields.io/badge/C%23-7.0%2B-blue) ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## Overview
 
-FastExcelGenerate is a robust C# tool for generating, updating, and saving Excel files with integrated chart data. Using the EPPlus library, this project populates Excel worksheets with product sales data, updates various chart types (bar, pie, line), and saves the newly generated report. It's designed for fast and dynamic Excel file handling with a focus on chart updates for tracking reports.
+EasyExcelGenerate is a robust C# tool for generating, updating, and saving Excel files with integrated chart data. Using the EPPlus library, this project populates Excel worksheets with product sales data, updates various chart types (bar, pie, line), and saves the newly generated report. It's designed for fast and dynamic Excel file handling with a focus on chart updates for tracking reports.
 
 The purpose of this project is to serve as a quick demo on how to use an Excel template to build a spreadsheet with tables and various types of charts, such as bar, pie, and line charts. The code demonstrates how to automatically populate the template with data and update the charts accordingly.
 
@@ -33,8 +33,8 @@ The purpose of this project is to serve as a quick demo on how to use an Excel t
 
 Clone the repository and navigate to the directory:
 ```sh
-git clone https://github.com/yourusername/FastExcelGenerate.git
-cd FastExcelGenerate
+git clone https://github.com/yourusername/EasyExcelGenerate.git
+cd EasyExcelGenerate
 ```
 
 ### Step 2: Set Up Your Excel Template
@@ -57,19 +57,19 @@ Modify the `ProductDataStore.cs` file to adjust the product sales data or add ne
 ## Project Structure
 
 ```plaintext
-FastExcelGenerate
-│   ├── FastExcelGenerate.sln
-│   ├── FastExcelGenerate
+EasyExcelGenerate
+│   ├── EasyExcelGenerate.sln
+│   ├── EasyExcelGenerate
 │   │   ├── docs
 │   │   │   ├── Invoice_Template.xlsx
 │   │   │   ├── Template.jpg
-│   │   ├── FastExcelGenerate.csproj
+│   │   ├── EasyExcelGenerate.csproj
 │   │   ├── Product.cs
 │   │   ├── ProductDataStore.cs
 │   │   ├── Program.cs
 ```
 
-![Template Image](FastExcelGenerate/docs/Template.jpg)
+![Template Image](EasyExcelGenerator/docs/Template.jpg)
 
 ## Author
 
@@ -77,7 +77,7 @@ This project was created by [Gitrep77](https://github.com/Gitrep77). If you find
 
 ## Support
 
-For issues or questions, open an issue on the [GitHub repository](https://github.com/Gitrep77/FastExcelGenerate/issues).
+For issues or questions, open an issue on the [GitHub repository](https://github.com/Gitrep77/EasyExcelGenerate/issues).
 
 ## Contributing
 
